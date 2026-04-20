@@ -4,6 +4,7 @@ on:
   repository_dispatch:
     types:
       - post-commit
+  workflow_dispatch: # Added trigger for manual execution
 
 permissions:
   contents: write
